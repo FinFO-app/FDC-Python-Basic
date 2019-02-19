@@ -32,24 +32,24 @@ if age >= 18:
 name = "James Bond"
 
 """IndentationError: expected an indented block"""
-# if age >= 18:
-#
-# name = "James Bond"
+if age >= 18:
+
+name = "James Bond"
 
 """IndentationError: unexpected indent"""
-# if age >= 18:
-#     print("You can VOTE")
-#      print("as per Indian Government")
+if age >= 18:
+    print("You can VOTE")
+     print("as per Indian Government")
 
 """IndentationError: unindent does not match any outer indentation level"""
-# if age >= 18:
-#     print("You can VOTE")
-#    print("as per Indian Government")
+if age >= 18:
+    print("You can VOTE")
+   print("as per Indian Government")
 
 """IndentationError: unexpected indent"""
-# if age >= 18:
-#     print("You can VOTE")
-#      print("as per Indian Government")
+if age >= 18:
+    print("You can VOTE")
+     print("as per Indian Government")
 
 """Last print is outside if block"""
 if age >= 18:
