@@ -25,3 +25,13 @@ for i in range(1, 11):
         print("{} is Even".format(i))
     else:
         print("{} is Odd".format(i))
+
+"""IndentationError: expected an indented block"""
+# if age >= 18:
+#
+# name = "James Bond"
+
+# We Will write the logic of if afterwards
+if age >= 18:
+    pass
+name = "James Bond"
